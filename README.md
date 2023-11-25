@@ -1,4 +1,6 @@
-![Screenshot (501)](https://github.com/nutankumari211/ElderHealthcare/assets/31533479/ef905efb-fbab-4c5d-98a0-b7fceb6a9c3b)# Medo - Medicine Reminder App
+
+# Hosting Link - https://hilarious-mousse-8661e7.netlify.app/
+# Medo - Medicine Reminder App
 
 Medo is a medicine reminder app designed to help elderly people manage their medication schedule independently. The app provides timely reminders for medication, enhancing self-dependency and overall health management.
 
