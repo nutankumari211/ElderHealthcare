@@ -1,0 +1,440 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #d1d1d1 0%, #eeeeee 50%, #d1d1d1 100%); /* Gradient background */
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.nav-items {
+  display: flex; /* Display links horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: color 0.3s ease; /* Smooth color transition */
+  position: relative;
+}
+
+.nav-links button {
+  cursor: pointer;
+  background-color: #07c9ff;
+  border: none;
+  color: #333; /* Set contrasting color */
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 15px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+
+.nav-links button {
+  cursor: pointer;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.nav-links button:hover {
+  background-color: #e0a800; /* Change background color on hover */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Added border */
+  border-radius: 4px; /* Added border-radius */
+  outline: none; /* Removed default outline */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  border-radius: 4px;
+
+}
+
+button:hover {
+  background-color: #82b8f1; /* Change background color on hover */
+}
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 3px;
+}
+
+
+/*Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #d40c36; /* Set your preferred color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);/* Add a subtle text shadow */
+}
+
+
+/* Signup.css */
+
+.signup-container {
+  max-width: 500px; /* Increased max-width */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px; /* Increased padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-header {
+  color: #333;
+  font-size: 2rem; /* Increased font size */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Login.css */
+
+.login-container {
+  max-width: 500px; /* Adjusted max-width */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px; /* Adjusted padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-header {
+  color: #333;
+  font-size: 2rem; /* Adjusted font size */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* landing-page.css */
+.landing-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 100%);
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjusted transparency */
+  filter: grayscale(30%); /* Added a grayscale effect */
+  filter: brightness(80%); /* Adjusted brightness */
+  filter: blur(3px); /* Added a slight blur effect */
+}
+
+
+.content-container {
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.app-name {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.quote-container {
+  font-size: 1.8rem; /* Adjusted font size */
+  margin-top: 20px;
+  font-style: italic; /* Added italic style */
+}
+
+
+
+/* MedicineReminderApp.css */
+.medicine-reminder-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.reminder-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reminder-form label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.reminder-form input,
+.reminder-form button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.reminder-form input {
+  transition: border-color 0.3s ease;
+}
+
+.reminder-form input:focus {
+  border-color: #007bff;
+}
+
+.reminder-form button {
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.reminder-form button:hover {
+  background-color: #0056b3;
+}
+
+.reminder-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reminder-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reminder-list li {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reminder-list li:hover {
+  transform: scale(1.02);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  background-color: rgb(244, 72, 72);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  font-size: 0.8rem; /* Adjust the font size */
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 80px;
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* About.css */
+.about-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-container .about-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+/* Contact.css */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
